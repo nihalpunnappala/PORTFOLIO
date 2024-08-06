@@ -1,0 +1,597 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+}
+
+nav{
+
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 50px;
+   
+    
+    padding: 10px;
+
+
+}
+
+nav ul{
+
+   
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+
+}
+
+nav ul li{
+
+    margin: 10px;
+    color: burlywood;
+    text-decoration:none;
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: burlywood;
+}
+
+video{
+
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    
+}
+
+.overlay{
+
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+
+h1{
+
+    color:black;
+}
+
+h1:hover{
+    color: greenyellow;
+    text-shadow: 2px 4px 6px goldenrod;
+
+}
+
+span{
+
+    color: olive;
+    font-size: 50px;
+}
+
+h2{
+    color: navy;
+    
+}
+
+#home{
+
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+#home::before{
+
+    content: "";
+    background-image: url(https://wallpapercave.com/wp/wp13272317.jpg);
+    height: 100%;
+    
+    background-size:cover ;
+    
+}
+
+.main{
+
+    /* border: 5px ridge blueviolet; */
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    height: 90px;
+    left: 70%;
+    margin-top: 10%;
+    /* box-shadow: 2px 2px 6px black; */
+
+
+}
+
+.main:hover{
+    scale: 1.05;
+}
+
+h3{
+
+    color: black;
+    background-color: burlywood;
+    
+    text-align: center;
+}
+
+.pic{
+
+    display: flex;
+}
+.pic img{
+
+    width: 400px;
+}
+
+.pic h4{
+
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.pic p{
+
+    text-align: justify;
+    margin: 10px;
+}
+
+.works{
+
+    
+    margin: solid black 20px ;
+
+}
+
+.works img{
+
+    width: 180px;
+    margin: 5px;
+    margin-left: 50px;
+    padding: 5px;
+
+}
+.works img:hover{
+
+    scale: 1.05;
+}
+
+ .gallery{
+
+    margin: 20px;
+}
+
+.gallery img{
+
+    width: 200px;
+    margin: 5px;
+    margin-left: 150px;
+    padding: 5px;
+    height: 150px;
+    
+}
+
+.gallery img:hover{
+
+    scale: 1.05;
+}
+
+.row{
+
+    display: flex;
+    margin-top: 5px;
+    
+}
+
+/* .box{
+
+    width: 350px;
+    height: 250px;
+    border: 3px ridge burlywood;
+    margin: 2px;
+    align-items: center;
+    background: linear-gradient(to top,burlywood 50%,white 50%);
+    background-size: 100% 200%;
+    transition: all 1.0s;
+} */
+
+/* .box:hover{
+
+    background-position: right bottom;
+    filter: drop-shadow(2px 4px 6px red);
+} */
+
+.box img{
+
+    width: 500px;
+    padding: 10px; 
+    
+
+} 
+
+
+.row1{
+
+    display: flex;
+    width: 100%;
+    height: 570px;
+    
+    
+}
+
+.col{
+
+    text-align: center;
+    height: 520px;
+    width: 350px;
+    
+    margin: 10px;
+    background: linear-gradient(to top, rgb(212, 223, 208),rgb(88, 112, 2) );
+    
+    
+
+    
+}
+
+
+
+.col img{
+
+    width: 280px;
+    height: 400px;
+    margin-left: 9px;
+}
+.col h2{
+
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+    text-shadow: 2px  white;
+
+}
+
+.col p{
+
+    margin-left: 35px;
+    color: black;
+}
+
+.col button{
+
+    width: 75px;
+    height: 30px;
+    background-color: red ;
+    border-radius: ;
+    margin-left: 40px;
+    color: white;
+    margin-left: 10px;
+}
+.col button a{
+
+    text-decoration: none;
+    color: white;
+
+
+}
+
+#nv{
+
+    background: linear-gradient(to top,rgb(246, 78, 0),rgb(16, 168, 238));
+}
+
+#bc{
+
+    background: linear-gradient(to top,rgb(81, 150, 182),rgb(210, 9, 116));
+}
+
+#dd{
+
+    background: linear-gradient(to top,rgb(222, 87, 148),rgb(246, 247, 247));
+}
+#gg{
+
+    background: linear-gradient(to top,rgb(211, 118, 12),rgb(33, 3, 3),rgb(8, 58, 151));
+}
+
+#ff{
+
+    background: linear-gradient(to top,rgb(218, 223, 224),rgb(100, 196, 234));
+}
+
+#bb{
+
+    background: linear-gradient(to top,rgb(255, 8, 239),rgb(5, 10, 116));
+
+}
+
+#ss{
+
+    background: linear-gradient(to top,rgb(229, 154, 16),rgb(235, 235, 41));
+}
+
+#xx{
+
+    background: linear-gradient(to top,rgb(0, 174, 255),rgb(156, 236, 156));
+}
+
+#ee{
+
+    background: linear-gradient(to top,rgb(235, 185, 4),rgb(196, 47, 82),rgb(239, 235, 228));
+}
+#fg{
+
+    background: linear-gradient(to top,rgb(28, 175, 248),rgb(32, 31, 31));
+}
+
+#mn{
+
+    background: linear-gradient(rgb(251, 251, 56),rgb(233, 229, 229));
+}
+
+#bv{
+
+    background: linear-gradient(rgb(3, 176, 245),rgb(255, 0, 0));
+}
+
+#cv{
+
+    background: linear-gradient(rgb(0, 25, 108),rgb(15, 14, 14),rgb(105, 105, 105));
+}
+
+#tr{
+
+    background: linear-gradient(rgb(216, 144, 156),rgb(140, 34, 34));
+}
+
+/* .row1:hover{
+
+    filter: drop-shadow( 2px 3px 10px gold);
+} */
+
+#nv:hover{
+
+    filter: drop-shadow(2px 4px 6px orange);
+}
+
+#bc:hover{
+
+    filter: drop-shadow(2px 4px 6px blueviolet);
+}
+
+#dd:hover{
+
+    filter: drop-shadow(2px 4px 6px pink);
+}
+#gg:hover{
+
+    filter: drop-shadow(2px 4px 6px darkblue);
+}
+
+#ff:hover{
+
+    filter: drop-shadow(2px 4px 6px skyblue);
+}
+
+#bb:hover{
+
+    filter: drop-shadow(2px 4px 6px violet);
+}
+
+#ss:hover{
+
+    filter: drop-shadow(2px 4px 6px yellow);
+}
+
+#xx:hover{
+
+    filter: drop-shadow(2px 4px 6px skyblue);
+}
+
+#nb:hover{
+
+    filter: drop-shadow(2px 4px 6px darkgreen);
+}
+
+#ee:hover{
+
+    filter: drop-shadow(2px 4px 6px gold);
+}
+
+#fg:hover{
+
+    filter: drop-shadow(2px 4px 6px navy);
+}
+
+#mn:hover{
+    filter: drop-shadow(2px 4px 6px greenyellow);
+}
+
+#bv:hover{
+
+    filter: drop-shadow(2px 4px 6px red);
+}
+#cv:hover{
+
+    filter: drop-shadow(2px 4px 6px brown);
+}
+
+#tr:hover{
+
+    filter: drop-shadow(2px 4px 6px olive);
+}
+
+#new1:hover{
+
+    filter: drop-shadow(2px 4px 6px grey);
+}
+
+#new2:hover{
+
+    filter: drop-shadow(2px 4px 6px yellow);
+}
+
+.row1:hover .col{
+
+    opacity: 1px;
+    filter: blur(3px);
+}
+
+.row1 .col:hover{
+    opacity: 1;
+    filter: blur(0px);
+    transform: scale(1.05);
+}
+.col:hover{
+
+    scale: 1.05;
+    transition: 2s;
+    
+}
+
+.row2{
+
+    display: flex;
+    width: 100%;
+    height: 570px;
+    
+    
+}
+
+.col2{
+
+    text-align: center;
+    height: 520px;
+    width: 350px;
+    
+    margin: 10px;
+    background: linear-gradient(to top, rgb(212, 223, 208),rgb(88, 112, 2) );
+    align-items: center;
+    margin-left: 170px;
+    
+    
+
+    
+}
+
+.col2 img{
+
+    width: 280px;
+    height: 400px;
+    margin-left: 9px;
+}
+
+#new1{
+
+    background: linear-gradient(to top,rgb(12, 5, 5),rgb(233, 198, 208),rgb(226, 35, 35));
+}
+
+#new2{
+
+    background: linear-gradient(to top,rgb(246, 246, 53),rgb(10, 5, 5),rgb(240, 240, 77));
+}
+
+.col2 h2{
+
+    color: black;
+}
+
+form{
+
+    width: 500px;
+    margin-left: 370px;
+    height: 200px;
+}
+
+.input{
+
+    
+
+        width: 100%;
+        margin: 10px
+}
+
+
+button{
+
+    color: red;
+    background-color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+
+form:hover{
+
+    filter: drop-shadow(2px 4px 6px gold);
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+/* .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url(https://w0.peakpx.com/wallpaper/765/524/HD-wallpaper-actors-ryan-gosling.jpg );
+   
+
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container img{
+
+    width: 400px;
+    
+  } */
